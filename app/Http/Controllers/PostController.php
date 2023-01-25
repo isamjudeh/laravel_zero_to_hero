@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    // index, show, create, store, edit, update, delete
+    // index, show, create, store, edit, update, deleted
     public function index()
     {
         $posts = Post::all();
