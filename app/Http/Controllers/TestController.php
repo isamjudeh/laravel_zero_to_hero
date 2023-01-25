@@ -8,6 +8,6 @@ class TestController extends Controller
 {
     public function index()
     {
-        return view('test.test')->with('name', 'Test');
+        return view('test.test')->with('name', 'Loai');
     }
 }
